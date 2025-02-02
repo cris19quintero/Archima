@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #000000; /* Color negro más oscuro del header */
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+nav {
+    background-color: #0e0d0d; /* Mismo color oscuro que el header */
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #fd1313; /* Color celeste de los enlaces */
+}
+
+.hero {
+    height: 60vh;
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.935)); /* Fondo negro con transparencia */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #ffffff; /* Color celeste del texto descriptivo */
+}
+
+.projects {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #0D0D0D; /* Fondo negro para la sección de proyectos */
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.project-card {
+    background: #000000; /* Fondo negro para las tarjetas */
+    box-shadow: 0 4px 6px rgba(13, 69, 236, 0.58);
+    transition: transform 0.3s;
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 1.5rem;
+}
+
+.project-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.project-info p {
+    font-size: 1rem;
+    color: #ffffff; /* Color celeste para las descripciones */
+}
+
+footer {
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+footer a {
+    color: #ffffff; /* Enlaces en celeste */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none
+;
+}
+#sobre-mi {
+    background-color: #0D0D0D;
+    color: white;
+}
+
+#sobre-mi p {
+    color: white;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+#sobre-mi a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para la sección Contacto */
+#contacto {
+    background-color: #0D0D0D;
+    color: white;
+}
+
+#contacto p {
+    color: white;
+}
+
+#contacto a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos adicionales para mantener el espaciado */
+#sobre-mi div, #contacto div {
+    padding: 2rem;
+}
+Copy* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #060606;
+    color: white;
+}
