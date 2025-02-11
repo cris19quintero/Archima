@@ -1,2 +1,2 @@
 # Archima
-Archima es una página web creada para un arquitecto, donde se pueden ver todos sus proyectos. También es mi primera página web creada, así que espero que le guste.
+Archima es un portafolio digital diseñado para un arquitecto, donde se presentan sus proyectos de manera clara y visualmente atractiva. Esta es mi primera página web, desarrollada con dedicación para ofrecer una experiencia fluida y profesional. Espero que sea de su agrado.
